@@ -11,5 +11,6 @@ public class AreaofCircle {
 		int radius = sc.nextInt();
 		double form = Math.PI * radius * radius;
 		System.out.println("Area of Circle is: " + form);
+		
 	}
 }
