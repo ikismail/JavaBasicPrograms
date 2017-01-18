@@ -11,6 +11,20 @@ public class GCD {
 
 	public static void main(String[] args) {
 
-		System.out.println(GCD1(20, 20));
+		// System.out.println(GCD1(20, 20));
+		// System.out.println(GCD1(25, 20));
+
+		int a = 5;
+		int b = 10;
+		System.out.println(a % b);
+		while (a != 0 && b != 0) {
+			int c = b;
+			b = a % b;
+
+			a = c;
+		}
+		System.out.println(a + b);
+
 	}
+
 }
