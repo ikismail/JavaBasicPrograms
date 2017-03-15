@@ -15,7 +15,7 @@ class calcFuncImpl {
 		return i1 * i2;
 	}
 
-	public double dividFunc(int i1, int i2) {
+	public double dividFunc(double i1, double i2) {
 		double z = 0;
 		try {
 			z = i1 / i2;
